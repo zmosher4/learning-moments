@@ -1,0 +1,51 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+section,
+header {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.post {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.post > div {
+  margin-bottom: 8px;
+}
+
+.post-info {
+  font-weight: bold;
+  color: #555;
+}
+
+.post > div span + span {
+  font-weight: normal;
+  color: #333;
+}
+
+.post > div:last-child {
+  margin-bottom: 0;
+}
